@@ -63,7 +63,7 @@ void View::dibujarFigura() {
     cout << "Quiere la figura de un color?\n1. Si\n2. No\n>> ";
     cin >> opcion;
     if (opcion==1) {
-        cout << "1. Rojo\n2. Azul\n3. Verde\n4. Purpura\n5. Amarillo\n";
+        cout << "1. Rojo\n2. Azul\n3. Verde\n4. Purpura\n5. Amarillo\n6. Gris\n";
         cin >> color;
         programaObj->dibujarFiguras(color);
     }else{
